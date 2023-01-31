@@ -1,2 +1,2 @@
-# diocese-teste
-Iniciação do site da diocese
+# BETA
+Versão inicial

@@ -1,0 +1,103 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+html {
+    background-image: url(/sass/imgs/back1.jpg);
+    background-size: cover;
+    
+}
+h1 {
+    text-align: center;
+    opacity: 50%;
+    
+    color: rgba(0, 0, 0, 0.897);
+    animation-name: introdution;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-direction: reverse;
+    transition-property: opacity;
+    transition-duration: 1s;
+}
+#logo {
+    margin-top: 30px;
+    margin-left: 35%;
+    opacity: 100%;
+    width: 400px;
+    height: 400px;
+
+    animation-name: opa;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-direction: reverse;
+    transition-property: opacity;
+    transition-duration: 3s;
+}
+h2 {
+    text-align: center;
+    opacity: 50%;
+    
+    color: rgba(48, 47, 47, 0.705);
+    animation-name: introdution;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-direction:reverse;
+    transition-property: opacity;
+    transition-duration: 3s;
+}
+header {
+    min-height: 80vh;
+}
+/* 
+    animation-name: fly;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-direction: reverse;
+    transition-property: opacity;
+    transition-duration: 1s;
+*/
+
+@keyframes fly {
+    100% {
+        transform: translateY(50vw);
+        
+        opacity: 0%;
+    }
+}
+
+
+
+footer {
+    opacity: 80%;
+    min-height: 20vh;
+    background-color: rgba(255, 255, 255, 0.432);
+    text-align: center;
+    padding: 20px;
+    animation-name: opa;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-direction: reverse;
+    transition-property: opacity;
+    transition-duration: 1s;
+
+}
+
+@keyframes introdution {
+    100% {
+        transform: translateX(50vw);
+        opacity: 0%;
+    }
+
+    
+}
+@keyframes opa {
+    100% {
+
+        opacity: 0%;
+    }
+
+    
+}
